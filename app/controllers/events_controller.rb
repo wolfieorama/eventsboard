@@ -7,11 +7,6 @@ class EventsController < ApplicationController
     @events = Event.all
   end
 
-  # GET /events/calendar_view
-  def calendar_view
-    @events = Event.all
-  end
-
   # GET /events/1
   # GET /events/1.json
   def show

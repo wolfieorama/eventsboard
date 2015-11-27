@@ -1,5 +1,7 @@
 == README
 
+A rails App using the calendar gem to render events on a calendar 
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

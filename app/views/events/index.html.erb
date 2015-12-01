@@ -1,11 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<%= week_calendar events: @events do |date, events| %>
+<%= month_calendar events: @events do |date, events| %>
   <%= date %>
 
   <% events.each do |event| %>
     <div>
-      <%= event.name %>
+      <%= link_to event.name, event %>
     </div>
   <% end %>
 <% end %>

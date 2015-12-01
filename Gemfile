@@ -31,6 +31,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "simple_calendar", "~> 2.0"
 
+# For the looks
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,4 +49,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
